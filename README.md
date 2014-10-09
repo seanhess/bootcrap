@@ -1,4 +1,4 @@
-bootcrap
+Bootcrap
 ========
 
 Prototype web applications without worrying about how they look.
@@ -34,37 +34,27 @@ TODO
 
 - [ ] buttons with icons, font awesome
 
-Elements
+Demo
+----
+
+[See it in all its glory](http://seanhess.github.io/bootcrap/)
+
+Features
 --------
 
 ```
-<label>   full width
-<input>   full width
-<button>  full width
+<hN>      default
+<label>   block element
+<input>   block element
+<select>  block element
+<textarea> block element
+<button>  styled, gray. 
+  <button class="secondary">
+  <button class="expand">
 <a>       inline
-<p>       vertical padding for text elements
-<mark>    highlight a run of text
-```
-
-Ideas under review
-
-```
-<section> shouldn't have any padding
-<article> padding?
-<aside>   should we allow simple columns that float left or right?
-<ul>      should look a little nicer?
-<ol>
-<li>      
-<menu>
-<menuitem> 
-<nav>
-<output>  ???
-<blockquote>
-<progress>
-<q>       short quote
-<s>       strikethrough?
-<header>  
-<footer>  
+  <a class="button">
+<p>       use for padding
+<table>   styled
 ```
 
 Thanks To
