@@ -1,0 +1,143 @@
+html, body {
+  margin: 0;
+  body: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+
+/* Bootcrap Defaults */
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+button, .button, input[type=submit] {
+  border: solid 2px #000;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 1.2rem;
+  font-size: 0.88889rem;
+  background-color: #505968;
+  border-color: black;
+  color: white;
+}
+
+button.expand, .button.expand, input[type=submit].expand {
+  width: 100%;
+}
+
+button.secondary, .button.secondary, input[type=submit].secondary {
+  background-color: #E6E6E6;
+  color: black;
+  font-weight: normal;
+}
+
+a {
+  color: #008cba;
+  text-decoration: none;
+  line-height: inherit;
+}
+
+label {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+input:not([type]), input[type=text], textarea, select {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+input:not([type]), input[type=text] {
+  height: 22px;
+  line-height: 1.42857143;
+}
+
+textarea {
+  height: auto;
+  min-height: 120px;
+}
+
+select {
+  height: 32px;
+  line-height: 32px;
+}
+
+textarea.form-control {
+
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+table tbody tr:nth-child(odd) > td {
+  background-color: #F9F9F9;
+}
+
+table th, table td {
+  padding: 6px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  border-bottom-width: 2px;
+}
+
+
+header {
+  background-color: #505968;
+  padding: 8px;
+  color: white;
+}
+
+header a {
+  color: white;
+}
+
+.padding {
+  padding: 8px;
+}
+
+.pane {
+  border: solid 1px #ddd;
+}
+
