@@ -1,0 +1,21 @@
+{
+  "name": "bootcrap",
+  "version": "0.0.1",
+  "homepage": "https://github.com/seanhess/bootcrap",
+  "authors": [
+    "Sean Clark Hess <seanhess@gmail.com>"
+  ],
+  "description": "Prototype web application without worrying how they look",
+  "main": "bootcrap.css",
+  "keywords": [
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
