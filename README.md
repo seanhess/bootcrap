@@ -6,40 +6,39 @@ Prototype web applications without worrying about how they look.
 Motivation
 ----------
 
-CSS Frameworks like Bootstrap help you make an application look good more easily. It looks just good enough, however, that we find ourselves spending significant time messing with css classes and styling to keep our views looking nice. 
+CSS Frameworks like [Bootstrap](http://getbootstrap.com/) help you make an application look good more easily. However, it still takes significant effort to make an application look good. Sometimes, that's not what you need.
 
-When prototyping, you are exploring ideas. They might be technical, or even involve some user experience, but the user interface will almost definitely change dramatically. The code will also need to be rewritten. It doesn't make sense to waste any time on visuals in this situation. 
+When prototyping, you are exploring ideas. Sometimes requirements change frequently. Sometimes it doesn't make sense to spend any time making things look good. 
 
 What is Bootcrap?
 -----------------
 
-Bootcrap is a set of guidelines to follow, and a simple css skin that will help you avoid the temptation to make things look good while prototyping. 
+Bootcrap is a set of guidelines to follow, and a simple css skin that will help you avoid the temptation to make things look good while prototyping. Components look ok out of the box, but hopefully crappy enough that you don't worry about it. 
+
+Follow the easy path!
 
 Installation
 ------------
 
     bower install bootcrap
 
-Then link to the css file
-
 Guidelines
 ----------
 
 - make it look like wireframes
 - use vertical layout (not horizontal, no columns)
-- never use classes or customize the look
+- never customize the look
+- use HTML5 tags
+
+TODO 
 
 - [ ] buttons with icons, font awesome
-- [ ] tables
-- [ ] navigation / header with title, menu
-
-Later, add extra react components? Like sliders, etc? No...
 
 Elements
 --------
 
 ```
-<label>   bold, full width
+<label>   full width
 <input>   full width
 <button>  full width
 <a>       inline
@@ -67,7 +66,6 @@ Ideas under review
 <header>  
 <footer>  
 ```
-
 
 Thanks To
 ---------
