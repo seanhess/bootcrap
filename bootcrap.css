@@ -145,3 +145,8 @@ header a {
   background-color: #E6E6E6;
 }
 
+pre {
+  padding: 8px;
+  background-color: #E6E6E6;
+  font-family: monospace;
+}
